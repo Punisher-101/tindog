@@ -184,12 +184,14 @@ a.navbar-brand {
 }
 
 
-@media (max-width: 991px) {
-    .rotate-image {
-        transform: rotate(0deg);
+@media (max-width: 700px) {
+    #footer {
+        padding: 20% 0 0;
     }
-    #title {
-        text-align: center;
+    .button-bottom {
+        padding:0%;
+    }
+    #cta h3 {
+        font-size: 180%;
     }
 }
-
