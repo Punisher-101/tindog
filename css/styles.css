@@ -1,0 +1,196 @@
+#title {
+    background-color: #ff4c68;
+    color: #ffffff;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+
+.nav-link {
+    font-family: "Monterrat-Light";
+    font-size: 1.4rem;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+a.navbar-brand {
+    color: white;
+    font-size: 45px;
+    font-family: "Ubuntu";
+}
+
+.collapse li a {
+    color: white;
+}
+
+.rotate-image {
+    transform: rotate(15deg);
+    width: 60%;
+    position: relative;
+    left: 20%;
+}
+
+.btn {
+    margin: 15px 10px 15px 0px;
+}
+
+.color {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.color:hover {
+    color: #ff4c68;
+}
+.haider{
+    text-align: center;
+}
+
+.font-type h3 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+.font-type p {
+    font-family: sans-serif;
+    color: #8f8f8f;
+    width: 45%;
+    margin-left: 30%;
+}
+
+/* Features Secttion */
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    margin-top: -15%;
+
+}
+
+ /*  Testimonials Section */
+#testimonials h2 {
+    font-family: "montserrat", sans-serif;
+    font-size: 200%;
+    line-height: 1.5;
+    padding: 0 20px;
+}
+
+#testimonials {
+    text-align: center;
+    background-color:#FF798E;
+    color: #fff;
+}
+
+#testimonials img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #FF798E;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 25px 50px;
+}
+
+
+/* Pricing */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+#pricing h2 {
+    font-family: montserrat;
+    font-size: 200%;
+}
+
+
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* Media Query */
+@media (max-width:1290px) {
+    #title h1 {
+        width: 100%;
+        font-size: 280%;
+    }
+    .rotate-image {
+        position: static;
+    }
+}
+
+@media (max-width: 1080px) {
+    #title h1 {
+        width: 100%;
+        font-size: 250%;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .rotate-image {
+        transform: rotate(0deg);
+    }
+    #title {
+        text-align: center;
+    }
+}
+
+
+/* Section CTA */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+    font-family: montserrat;
+    padding: 7% 15%;
+}
+
+#cta h3 {
+    font-size: 300%;
+    padding: 0 15%;
+    line-height: 1.4;
+}
+
+#cta button {
+    margin-top: 50px;
+}
+
+/* Footer */
+#footer {
+    background-color: #fff;
+    text-align: center;
+    height: 250px;
+    padding: 10% 0;
+}
+
+#footer i {
+    padding: .5%;
+}
+
+/* using Media Query to make our website responsive for footer */
+@media (max-width: 700px) {
+    #footer {
+        padding: 20% 0 0;
+    }
+}
+
