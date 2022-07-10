@@ -126,34 +126,6 @@ a.navbar-brand {
     padding: 3% 2%;
 }
 
-/* Media Query */
-@media (max-width:1290px) {
-    #title h1 {
-        width: 100%;
-        font-size: 280%;
-    }
-    .rotate-image {
-        position: static;
-    }
-}
-
-@media (max-width: 1080px) {
-    #title h1 {
-        width: 100%;
-        font-size: 250%;
-    }
-}
-
-
-@media (max-width: 991px) {
-    .rotate-image {
-        transform: rotate(0deg);
-    }
-    #title {
-        text-align: center;
-    }
-}
-
 
 /* Section CTA */
 
@@ -191,6 +163,33 @@ a.navbar-brand {
 @media (max-width: 700px) {
     #footer {
         padding: 20% 0 0;
+    }
+}
+/* Media Query */
+@media (max-width:1290px) {
+    #title h1 {
+        width: 100%;
+        font-size: 280%;
+    }
+    .rotate-image {
+        position: static;
+    }
+}
+
+@media (max-width: 1080px) {
+    #title h1 {
+        width: 100%;
+        font-size: 250%;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .rotate-image {
+        transform: rotate(0deg);
+    }
+    #title {
+        text-align: center;
     }
 }
 
